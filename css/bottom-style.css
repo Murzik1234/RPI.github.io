@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Serif+Georgian&family=Open+Sans&family=Yeseva+One&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+/* review section */
+
+.review_section{
+    width: 100%;
+    height: 758px;
+    background-image: url('../img/shashlyk.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.reviews_container{
+    position: relative;
+    width: 770px;
+    height: 557px;
+    margin:0 auto;
+    top: 13.3%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.reviews_title{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+    top: 13.3%;
+    font-size: 36px;
+    height: auto;
+    font-weight: 500;
+}
+
+.reviews_title::after{
+    content: "";
+    display: block;
+    background-image: url("../img/white_divider.png");
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 16px auto;
+    width: 20%;
+    height: 28px;
+}
+
+.guest_reviews_abstract{
+    display:block;
+    position: relative;
+    width: 81.8%;
+    margin: 0 auto;
+    top: 5.5%;
+    line-height: 45px;
+    text-align: center;
+    color: #dde0df;
+    font-family: 'Gentium Book Basic', cursive;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.guest_reviews_abstract::before{ 
+    content: "\201C";
+    display: block;
+    position: relative;
+    top: 45px;
+    left: -44px;
+    color: #9b9f9b;
+    font-size: 69px;
+    width: 40px;
+    font-family: 'Georgia';
+}
+
+.guest_reviews_abstract span{
+    margin-top: 22px;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+
+/* booking section */
+
+.booking_section{
+    width: 100%;
+    height: 711px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/booking_background_pattern.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.booking_list{
+    width: 1232px;
+    height: 511px;
+    position: relative;
+    left: 1px;
+    top: 2px;
+    list-style-type: none;
+}
+.booking_list li{
+    float: left;
+}
+
+.booking_list li:first-child{
+    width: 21.9%;
+    margin-left: 30px;
+}
+
+.booking_list li:nth-child(2){
+    width: 21.9%;
+    margin: 0 30px;
+}
+
+.booking_list img{
+    width: 100%;
+}
+
+.booking_list li:last-child{
+    display: block;
+    width: 35%;
+    height: 59%;
+    margin: -7px 0 0 70px;
+}
+
+.booking_form_title{
+    width: 100%;
+    height: 107px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 500;
+    color: goldenrod;
+    text-align: center;
+}
+
+.booking_form_title::after{
+    content: "";
+    display: block;
+    background-image: url("../img/booking_title_divider.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 12px auto 25px;
+    width: 60%;
+    height: 28px;
+}
+
+.booking_paragraph{
+    height: 72px;
+    margin-bottom: 9px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: rgb(76, 76, 76);
+    text-align: center;
+    line-height: 24px;
+}
+
+.booking_form{
+    width: 100%;
+    height: 214px;
+    margin: 37px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.booking_form div{
+    width: 46%;
+    height: 61px;
+}
+
+.booking_form div:nth-child(3){
+    margin-top: 24px;
+}
+
+.booking_form div:nth-child(4){
+    margin-top: 24px;
+}
+
+.booking_form div:nth-child(even){
+    position: relative;
+    left: -2px;
+}
+
+.booking_form div input{
+    width: 154px;
+    height: 22px;
+    margin: 0;
+    padding: 6px 30px 8px 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: #7c7c7c;
+    border-radius: 0;
+    border: 1px solid #dde0df;
+    outline: none;
+    background: rgba(255, 255, 255, 0.4);
+    transition: .2s;
+}
+
+.booking_form input:focus{
+    border: 1px solid goldenrod;
+}
+
+.booking_form label{
+    height: 20px;
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: goldenrod;
+}
+
+.booking_form div:nth-child(3) label::after{
+    content: attr(title);
+    position: relative;
+    left: 143px;
+    top: 30px;
+    font-family: FontAwesome;
+    font-size: 13px;
+    font-weight: 200;
+    color: #7c7c7c;
+}
+
+.booking_form div:nth-child(4) label::after{
+    content: '\f107';
+    position: relative;
+    left: 80px;
+    top: 31px;
+    font-family: FontAwesome;
+    font-size: 13px;
+    font-weight: 100;
+    color: #7c7c7c;
+}
+
+.booking_form .submit_button{
+    margin: 32px auto 0;
+    padding: 1.9% 0;
+    width: 46.5%;
+    height: 20px;
+    color: #fff;
+    background-color: goldenrod;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    border:none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.booking_form .submit_button:disabled{
+    background-color: #dde0df;
+    cursor: default;
+}
+
+.booking_form .submit_button:focus{
+    border: none;
+}
+
+/* footer section */
+
+footer{
+   width: 100%;
+   height: 320px;
+   background-color: #191919; 
+}
+
+.footer_list{
+    position: relative;
+    width: 1232px;
+    height: 220px;
+    margin: 0 auto;
+    top: 18%;
+    list-style-type: none;
+}
+
+.footer_list li{
+    width: 20.9%;
+    height: 220px;
+    text-align: center;
+    margin: 0 7.1%;
+    float: left;
+    color: #fff;
+}
+
+.footer_list li:first-child{
+    width: 370px;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.footer_list li:nth-child(2) p{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.footer_list li:last-child{
+    margin-left: 4.5%;
+    margin-right: 0;
+}
+
+.footer_list li:last-child span{
+    font-size: 15px;
+}
+
+.footer_subtitle{
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    height: 76px;
+}
+
+.footer_subtitle::after{
+    content: "";
+    display: block;
+    background-image: url("../img/white_divider.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 76%;
+    height: 25px;
+    margin: 13px auto 16px;
+}
+
+.footer_list li:first-child .footer_subtitle::after{
+    width: 54%;
+}
+
+.footer_list li p{
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer_list span{
+    font-weight: bold;
+}
+
+.footer_list span a{
+    color: #fff;
+}
+
+.footer_list li:last-child span{
+    letter-spacing: 1px;
+}
+
+.footer_cards{
+    height: auto;
+    position: relative;
+    top: 52px;
+}
+
+.footer_cards i{
+    height: auto;
+    margin-left: 8px;
+    font-size: 15px;
+}
+
+/* modal window section */
+
+.modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: .2s;
+}
+
+.modal_window{
+    width: 600px;
+    height: auto;
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    box-shadow: 10px 10px 15px #333;
+}
+
+.modal_window h2{
+    font-family: 'Yeseva One', cursive;
+    font-weight: lighter;
+    font-size: 36px;
+    color: goldenrod;
+}
+ .modal_window h2:after{
+    content:'';
+    display: block;
+    background-image: url('../img/booking_title_divider.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 50%;
+    height: 40px;
+    margin: 15px auto 25px;
+ }
+
+ .modal_close_button{
+    margin-top: 40px;
+    width: 33%;
+    padding: 8px 0;
+    background-color: goldenrod;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+ }
+
+ .show_modal{
+    opacity: 1;
+    visibility: visible;
+    transition: .3s;
+ }

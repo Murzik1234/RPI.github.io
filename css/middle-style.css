@@ -1,0 +1,505 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: black;
+  background: white;
+}
+.intro{
+  height: 758px;
+  background: url("../img/Bg3.png") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 51%;
+}
+.texts{
+  text-align: center;
+  padding: 55px 0;
+  width: 568px;
+  height: 448px;
+  background: rgba(0, 0, 0, 0.65);
+}
+.intro_title {
+  height: 42px;
+  margin-top: 20px;
+  color: white;
+  font-size: 36px;
+  font-family: 'Yeseva One', cursive;
+  font-weight: lighter;
+}
+.plate {
+  display: block;
+  margin: 12px auto;
+  width: 40%;
+  height: 31px;
+}
+.intro_paragraph {
+  margin: 21px auto;
+  width: 75%;
+  height: 120px;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+}
+.circles{
+  width: 69%;
+  height: 110px;
+  margin: 67px auto 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.intro2 {
+  width: 100%;
+  height: 994px;
+  background: url("../img/back2_02.jpg") center no-repeat;
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list_container{
+  width: 1055px;
+  height: 943px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.intro2_list{
+  margin-top: 74px;
+  width: 43%;
+  height: auto;
+  list-style-type: none;
+  text-align: center;
+}
+.intro2_list h2{
+  height: 42px;
+  color: goldenrod;
+  font-size: 36px;
+  font-family: 'Yeseva One', cursive;
+  font-weight: lighter;
+}
+.intro2_list img{
+  height: 28px;
+  display: block;
+  margin: 12px auto -9px;
+}
+.intro2_list li{
+  padding: 10px;
+  height: 61px;
+  text-align: left;
+  display: block;
+  margin-top: 17px;
+}
+.intro2_list li:last-child p{
+  margin-bottom: 60px;
+}
+.intro2_list .first_element{
+  margin-top: 26px;
+}
+.intro2_list li h3{
+  width: 100%;
+  height: 32px;
+  color: goldenrod;
+  font-size: 21px;
+  font-family: 'Yeseva One', cursive;
+  font-weight: lighter;
+}
+.intro2_list li h3:after{
+  content:"";
+  display: block;
+  width: 100%;
+  margin-top: 7px;
+  height: 1px;
+  background-color: goldenrod;
+}
+.intro2_list li h3 span{
+  float: right;
+}
+.intro2_list p{
+  height: 19px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.intro2_list:nth-child(3){
+  margin-top: -5px;
+}
+.intro2_list:last-child{
+  margin-top: -105px;
+}
+.intro2_list .special{
+  border: 1px solid goldenrod;
+}
+.intro2_list .special h3 span::before{
+  content: "Special";
+  display: block;
+  color: #fff;
+  background-color: goldenrod;
+  font-size: 14px;
+  margin: -30px -11px 9px -5px;
+  padding: 2px 10px;
+}
+
+
+
+
+
+
+.title1 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 859px;
+  left: 415px;
+  font-size: 36px;
+}
+.title2 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 949px;
+  left: 285px;
+  font-size: 23px;
+  text-align: justify;
+  border-bottom: 1px solid goldenrod;
+  line-height: 5px;
+}
+
+.title4 {
+  position: absolute;
+  color: black;
+  top: 1010px;
+  left: 285px;
+  font-size: 16px;
+
+}
+
+.title5 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 1063px;
+  left: 285px;
+  font-size: 23px;
+  border-bottom: 1px solid goldenrod;
+  line-height: 5px;
+}
+
+.title6 {
+  position: absolute;
+  color: black;
+  top: 1127px;
+  left: 285px;
+  font-size: 16px;
+}
+
+.title7 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 1179px;
+  left: 285px;
+  font-size: 23px;
+  border-bottom: 1px solid goldenrod;
+  line-height: 5px;
+}
+
+.title8 {
+  position: absolute;
+  color: black;
+  top: 1242px;
+  left: 285px;
+  font-size: 16px;
+}
+
+.title9 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 1304px;
+  left: 453px;
+  font-size: 36px;
+}
+
+.title10 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 1394px;
+  left: 285px;
+  font-size: 23px;
+  text-align: justify;
+  border-bottom: 1px solid goldenrod;
+  line-height: 5px;
+}
+
+.title11 {
+  position: absolute;
+  color: black;
+  top: 1457px;
+  left: 285px;
+  font-size: 16px;
+
+}
+
+.title12 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 1507px;
+  left: 275px;
+  font-size: 23px;
+
+  border-left: 1px solid goldenrod;
+  border-right: 1px solid goldenrod;
+  border-top: 1px solid goldenrod;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  line-height: 0px;
+
+
+}
+
+.title13 {
+  position: absolute;
+  color: black;
+  border-top: 1px solid goldenrod;
+  border-left: 1px solid goldenrod;
+  border-right: 1px solid goldenrod;
+  border-bottom: 1px solid goldenrod;
+
+  padding-left: 10px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 1554px;
+  left: 275px;
+  font-size: 16px;
+}
+.title131 {
+  position: absolute;
+  color: white;
+  border-top: 1px solid goldenrod;
+  border-left: 1px solid goldenrod;
+  border-right: 1px solid goldenrod;
+  border-bottom: 1px solid goldenrod;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  top: 1486px;
+  left: 656px;
+  font-size: 14px;
+  background: goldenrod;
+}
+.title14 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 1614px;
+  left: 285px;
+  font-size: 23px;
+  border-bottom: 1px solid goldenrod;
+  line-height: 5px;
+}
+
+.title15 {
+  position: absolute;
+  color: black;
+  top: 1677px;
+  left: 285px;
+  font-size: 16px;
+}
+
+.title16 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 859px;
+  left: 1015px;
+  font-size: 36px;
+}
+.title17 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 949px;
+  left: 885px;
+  font-size: 23px;
+  text-align: justify;
+  border-bottom: 1px solid goldenrod;
+  line-height: 5px;
+}
+
+.title18 {
+  position: absolute;
+  color: black;
+  top: 1010px;
+  left: 885px;
+  font-size: 16px;
+
+}
+
+.title19 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 1063px;
+  left: 885px;
+  font-size: 23px;
+  border-bottom: 1px solid goldenrod;
+  line-height: 5px;
+}
+
+.title20 {
+  position: absolute;
+  color: black;
+  top: 1127px;
+  left: 885px;
+  font-size: 16px;
+}
+.title21 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 1214px;
+  left: 980px;
+  font-size: 36px;
+}
+.title22 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 1300px;
+  left: 885px;
+  font-size: 23px;
+  text-align: justify;
+  border-bottom: 1px solid goldenrod;
+  line-height: 5px;
+}
+
+.title23 {
+  position: absolute;
+  color: black;
+  top: 1360px;
+  left: 885px;
+  font-size: 16px;
+
+}
+
+.title24 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 1405px;
+  left: 875px;
+  font-size: 23px;
+
+  line-height: 0px;
+  border-left: 1px solid goldenrod;
+  border-right: 1px solid goldenrod;
+  border-top: 1px solid goldenrod;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+
+}
+
+.title25 {
+  position: absolute;
+  color: black;
+  top: 1447px;
+  left: 875px;
+  font-size: 16px;
+  border-top: 1px solid goldenrod;
+  border-left: 1px solid goldenrod;
+  border-right: 1px solid goldenrod;
+  border-bottom: 1px solid goldenrod;
+
+  padding-left: 10px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.title251 {
+  position: absolute;
+  color: white;
+  border-top: 1px solid goldenrod;
+  border-left: 1px solid goldenrod;
+  border-right: 1px solid goldenrod;
+  border-bottom: 1px solid goldenrod;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  top: 1385px;
+  left: 1256px;
+  font-size: 14px;
+  background: goldenrod;
+}
+.title26 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 1501px;
+  left: 885px;
+  font-size: 23px;
+  border-bottom: 1px solid goldenrod;
+  line-height: 5px;
+}
+
+.title27 {
+  position: absolute;
+  color: black;
+  top: 1563px;
+  left: 885px;
+  font-size: 16px;
+}
+.title28 {
+  position: absolute;
+  font-family: 'Yeseva One', cursive;
+  color: goldenrod;
+  top: 1614px;
+  left: 885px;
+  font-size: 23px;
+  border-bottom: 1px solid goldenrod;
+  line-height: 5px;
+}
+
+.title29 {
+  position: absolute;
+  color: black;
+  top: 1677px;
+  left: 885px;
+  font-size: 16px;
+}
+.logo1 {
+  position: absolute;
+  left: 380px;
+  top: 910px;
+}
+.logo2 {
+  position: absolute;
+  left: 380px;
+  top: 1360px;
+}
+.logo3 {
+  position: absolute;
+  left: 960px;
+  top: 910px;
+}
+.logo4 {
+  position: absolute;
+  left: 960px;
+  top: 1270px;
+}
